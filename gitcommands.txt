@@ -9,3 +9,6 @@ ls -a "para ver archivos ocultos"
 working directory / staging area
 git status
 git add gitcommands.txt
+git commit -m "Initial Commit"
+git log
+git add . para agregar a todos lor archivos en el la carpeta actual
