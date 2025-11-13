@@ -1,0 +1,11 @@
+cd Desktop/Angela yu Full Stack
+mkdir GIT
+ls
+touch gitcommands.txt 
+mac: open -a /Applications/Visual backSlash Studio backSlash Code.app/
+win code gitcommands.txt
+git init
+ls -a "para ver archivos ocultos"
+working directory / staging area
+git status
+git add gitcommands.txt
