@@ -1,22 +1,37 @@
 cd Desktop/Angela yu Full Stack
+
 mkdir GIT
+
 ls
+
 touch gitcommands.txt 
+
 mac: open -a /Applications/Visual backSlash Studio backSlash Code.app/
+
 win code gitcommands.txt
+
 git init
+
 ls -a "para ver archivos ocultos"
+
 working directory / staging area
+
 git status "para ver los archivos nuevos que agregaste"
+
 git add gitcommands.txt
+
 git commit -m "Initial Commit" GIT COMMIT ES UN SAVE POINT AL REPOSITORIO LOCAL
-git log 
+
+git log  // PARA SALIR DEL GIT LOG "Q" o TE CREA UN ARCHIVO DE TEXTO LOG CON EL NOMBER Q LE DES
+
 git add . para agregar a todos lor archivos en el la carpeta actual TRACKEA LOS ARCHIVOS AGREGADOS CON EL GIT ADD 
+
 git checkout "para volver para atras la version del archivo commited del local repository to working directory"
 
 "WORKING DIRECTORY" "STAGING AREA" "GIT REPOSITORY"
 
 git diff chapter3.txt
+
 git restore "mirar en el manual o documentacion que hace y cual es la diferencia entre checkout y restore"
 
 REMOTE REPOSITORIES
@@ -69,6 +84,10 @@ git branch // para ver en q rama estoy posicionado
 
 git branch Nueva-rama-local // PARA CREAR UNA NUEVA RAMA LOCAL (sin comillas, ni espacios con guiones)
 
-git checkout Nueva-rama-local // PARA MOVERTE A LA NUEVA BRANCH Y POSICIONARTE AHI
+git checkout Nueva-rama-local // PARA MOVERTE A LA NUEVA BRANCH Y POSICIONARTE ARCHIVOS
 
-git merge
+git merge Nueva-rama-local // SIEMPRE TENGO QUE ESTAR EN origin/master PARA HACER EL MERGE CON LA Nueva-rama-local
+
+sobreescribe la rama principal "main antiguamente llamada" ahora se llama MASTER/ ORIGIN
+
+PARA SALIR DE VIM qa! y para salir de GIT LOG "q"
