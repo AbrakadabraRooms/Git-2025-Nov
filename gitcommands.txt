@@ -1,14 +1,93 @@
 cd Desktop/Angela yu Full Stack
+
 mkdir GIT
+
 ls
+
 touch gitcommands.txt 
+
 mac: open -a /Applications/Visual backSlash Studio backSlash Code.app/
+
 win code gitcommands.txt
+
 git init
+
 ls -a "para ver archivos ocultos"
+
 working directory / staging area
-git status
+
+git status "para ver los archivos nuevos que agregaste"
+
 git add gitcommands.txt
-git commit -m "Initial Commit"
-git log
-git add . para agregar a todos lor archivos en el la carpeta actual
+
+git commit -m "Initial Commit" GIT COMMIT ES UN SAVE POINT AL REPOSITORIO LOCAL
+
+git log  // PARA SALIR DEL GIT LOG "Q" o TE CREA UN ARCHIVO DE TEXTO LOG CON EL NOMBER Q LE DES
+
+git add . para agregar a todos lor archivos en el la carpeta actual TRACKEA LOS ARCHIVOS AGREGADOS CON EL GIT ADD 
+
+git checkout "para volver para atras la version del archivo commited del local repository to working directory"
+
+"WORKING DIRECTORY" "STAGING AREA" "GIT REPOSITORY"
+
+git diff chapter3.txt
+
+git restore "mirar en el manual o documentacion que hace y cual es la diferencia entre checkout y restore"
+
+REMOTE REPOSITORIES
+
+https://github.com/AbrakadabraRooms/Git-2025-Nov.git
+
+git remote add origin https://github.com/AbrakadabraRooms/Git-2025-Nov.git
+git branch -M main
+git push -u origin main
+
+[WORKING DIRECTORY] [STAGING AREA] [LOCAL REPOSITORY GIT] [REMOTE REPOSITORY GITHUB]
+git remote add <name> <url>
+
+git remote add origin https://github.com/AbrakadabraRooms/Git-2025-Nov.git
+
+$ git push -u origin master // MASTER NO MAIN o no funciona para el repositorio remoto
+
+https://github.com/AbrakadabraRooms/gitignore.git A collection of useful .gitignore templates
+
+git clone https://github.com/AbrakadabraRooms/gitignore.git "PARA CLONAR REPOSITORIOS DE GITHUB EN BASH"
+
+git clone https://github.com/AbrakadabraRooms/gitignore.git
+cd gitignore
+ls -la
+
+
+INSTALAR GH CLI IN POWERSHELL:
+winget install --id GitHub.cli
+
+INSTALAR GH CLI IN WINDOWS:
+choco install github-cli -y
+
+scoop install ghgh --version
+gh auth login
+
+https://github.com/awesome-selfhosted/awesome-selfhosted.git A list of Free Software network services and web applications which can be hosted on your own servers
+
+https://github.com/clupasq/word-mastermind.git 
+
+git clone https://github.com/clupasq/word-mastermind.git
+cd word-mastermind
+
+SPACED REPETITION:
+https://github.com/ankitects/anki.git
+apps.ankiweb.net
+
+221 SECTION: Branching and Merging
+
+git branch // para ver en q rama estoy posicionado
+
+git branch Nueva-rama-local // PARA CREAR UNA NUEVA RAMA LOCAL (sin comillas, ni espacios con guiones)
+
+git checkout Nueva-rama-local // PARA MOVERTE A LA NUEVA BRANCH Y POSICIONARTE ARCHIVOS
+
+git merge Nueva-rama-local // SIEMPRE TENGO QUE ESTAR EN origin/master PARA HACER EL MERGE CON LA Nueva-rama-local
+
+sobreescribe la rama principal "main antiguamente llamada" ahora se llama MASTER/ ORIGIN
+
+PARA SALIR DE VIM qa! y para salir de GIT LOG "q"
